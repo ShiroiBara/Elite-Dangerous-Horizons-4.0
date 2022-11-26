@@ -16,7 +16,7 @@
 
 
 6. Заменяем settings.json на этот:
-
+https://github.com/ShiroiBara/Elite-Dangerous-Horizons-4.0/blob/main/settings.json
 7. Открываем клиент стим топаем в библиотеку и щелкаем правой кнопкой по ярлыку элиты. В выпавшем меню находим параметры запуска и прописываем там строку:
 cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" Закрываем окно настроек.
 
