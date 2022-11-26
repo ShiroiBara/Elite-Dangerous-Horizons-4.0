@@ -20,5 +20,5 @@ cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" Закрываем
 ![image](https://github.com/ShiroiBara/Elite-Dangerous-Horizons-4.0/blob/main/3.jpg)
 8. Теперь запускаем игру из стима, кликая на "играть".
 9. Будет запущена версия 4.0. 
-10. Если захотите играть в обычном режиме и вместо использования стороннего лаунчера захочите запустить стандартный фронтировский, удалите cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" из свойств элиты в стиме или пропишите там параметры запуска нужного дополнения как это написано в описании тут: https://github.com/rfvgyhn/min-ed-launcher#arguments
+10. Если захотите играть в обычном режиме и вместо использования стороннего лаунчера нужно запустить стандартный фронтировский, удалите cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" из свойств элиты в стиме или пропишите там параметры запуска нужного дополнения как это написано в описании тут: https://github.com/rfvgyhn/min-ed-launcher#arguments
 На этом всё. Удачных полетов!
