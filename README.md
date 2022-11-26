@@ -9,19 +9,15 @@
 1. Качаем архив https://github.com/rfvgyhn/min-ed-launcher/releases/download/v0.7.5/min-ed-launcher_v0.7.5_win10-x64.zip
 2. Распаковываем его в какую-нибудь временную папку. Нас интересует файлик MinEdLauncher.exe
 3. Открываем проводник и копируем его в папку где установлена игра, обычно это внутри подпапок стима:
-
+![image](https://github.com/ShiroiBara/Elite-Dangerous-Horizons-4.0/blob/main/1.jpg)
 4. Для верности запускаем его один раз на исполнение. Обычно это выдает ошибку, но при этом создается папка настроек, которая понадобится в дальнейшем.
 5. Топаем в проводнике в папку настроек, созданную на предыдущем этапе:
-
-
-
+![image](https://github.com/ShiroiBara/Elite-Dangerous-Horizons-4.0/blob/main/2.jpg)
 6. Заменяем settings.json на этот:
 https://github.com/ShiroiBara/Elite-Dangerous-Horizons-4.0/blob/main/settings.json
 7. Открываем клиент стим топаем в библиотеку и щелкаем правой кнопкой по ярлыку элиты. В выпавшем меню находим параметры запуска и прописываем там строку:
-cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" Закрываем окно настроек.
-
-
-
+cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" Закрываем окно настроек:
+![image](https://github.com/ShiroiBara/Elite-Dangerous-Horizons-4.0/blob/main/3.jpg)
 8. Теперь запускаем игру из стима, кликая на "играть".
 9. Будет запущена версия 4.0. 
 10. Если захотите играть в обычном режиме и вместо использования стороннего лаунчера захочите запустить стандартный фронтировский, удалите cmd /c "MinEdLauncher.exe %command% /autorun /autoquit /EDH4" из свойств элиты в стиме или пропишите там параметры запуска нужного дополнения как это написано в описании тут: https://github.com/rfvgyhn/min-ed-launcher#arguments
